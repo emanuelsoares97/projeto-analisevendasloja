@@ -1,0 +1,5 @@
+2025-01-28 20:02:14,832 - INFO - root - Ficheiro guardado com sucesso: C:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-28.csv
+2025-01-28 20:04:26,421 - INFO - root - Ficheiro guardado com sucesso: C:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data\top10_produtos_2025-01-28.csv
+2025-01-28 20:08:22,165 - INFO - root - Ficheiro guardado com sucesso: C:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data\top10_produtos_2025-01-28.csv
+2025-01-28 20:08:38,740 - INFO - root - Ficheiro guardado com sucesso: C:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data\top10_produtos_2025-01-28.csv
+2025-01-28 20:09:30,771 - INFO - root - Ficheiro guardado com sucesso: C:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data\top10_produtos_2025-01-28.csv

@@ -1,0 +1,34 @@
+2025-01-28 17:59:10,543 - INFO - root - Teste de logging: configuração verificada com sucesso.
+2025-01-28 17:59:10,543 - INFO - root - Inicializar o DatabaseManager
+2025-01-28 17:59:10,543 - INFO - root - Tabelas criadas com sucesso no banco de dados.
+2025-01-28 17:59:10,543 - INFO - root - Dados carregados nas tabelas 'produtos', 'clientes' e 'vendas'.
+2025-01-28 17:59:10,544 - INFO - root - Query executada com sucesso: 
+CREATE TABLE IF NOT EXISTS produtos (
+    id INTEGER PRIMARY KEY,
+    nome TEXT NOT NULL,
+    preco INTEGER NOT NULL
+);
+
+2025-01-28 17:59:10,545 - INFO - root - Query executada com sucesso: 
+CREATE TABLE IF NOT EXISTS vendas (
+    id INTEGER PRIMARY KEY,
+    id_produto INTEGER NOT NULL,
+    id_cliente INTEGER NOT NULL,
+    quantidade INTEGER NOT NULL,
+    data DATE NOT NULL,
+    FOREIGN KEY (id_produto) REFERENCES produtos (id),
+    FOREIGN KEY (id_cliente) REFERENCES clientes (id)
+);
+
+
+2025-01-28 17:59:10,546 - INFO - root - Query executada com sucesso: 
+CREATE TABLE IF NOT EXISTS clientes (
+    id INTEGER PRIMARY KEY,
+    nome TEXT NOT NULL,
+    email TEXT NOT NULL
+);
+
+2025-01-28 17:59:10,546 - INFO - root - Tabelas criadas com sucesso no banco de dados.
+2025-01-28 20:07:33,180 - INFO - root - Logging configurado corretamente!
+2025-01-28 20:08:19,953 - INFO - root - Logging configurado corretamente!
+2025-01-28 20:08:20,188 - INFO - root - Ficheiro guardado com sucesso: C:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-28.csv
