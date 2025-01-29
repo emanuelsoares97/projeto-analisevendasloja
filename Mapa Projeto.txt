@@ -1,0 +1,22 @@
+Projeto SQLite Pandas - Vendas
+
+meu-projeto-de-vendas/
+├── README.md  # Explicação do projeto
+├── classes/
+│   ├── DatabaseManager
+│   ├── Produtos
+│   ├── ProdutosManager
+│   ├── Clientes
+│   ├── ClientesManager
+│   ├── Vendas
+│   ├── VendasManager
+├── database/
+│   ├── loja.db  # Arquivo SQLite (pode ser incluído ou gerado pelo código)
+│   └── scripts.sql  # Opcional: scripts para criar tabelas
+├── data/
+│   ├── vendas.csv  # Dados de exemplo (opcional, para popular o banco)
+│   └── produtos.csv
+├── notebooks/
+│   ├── analise_vendas.ipynb  # Notebook com a análise em Pandas
+├── main.py  # Script principal (opcional)
+└── requirements.txt  # Bibliotecas Python usadas no projeto
