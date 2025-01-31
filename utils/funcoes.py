@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from utils.logger_utils import logging
 from datetime import datetime
+import matplotlib.ticker as ScalarFormatter
 import os
 
 def criar_graficos_matplotlib_pyplot(df, titulo, xlabel, ylabel, tipo="bar"):
@@ -17,11 +18,23 @@ def criar_graficos_matplotlib_pyplot(df, titulo, xlabel, ylabel, tipo="bar"):
     if not isinstance(df, (pd.Series, pd.DataFrame)):
         raise ValueError("O parâmetro 'df' deve ser uma pandas Series ou DataFrame.")
     
-    df.head(10).plot(kind=tipo, figsize=(10, 5))
-    plt.title(titulo)
-    plt.xlabel(xlabel)
-    plt.ylabel(ylabel)
-    plt.xticks(rotation=45)
+    # Garante que o índice do gráfico seja a primeira coluna do DataFrame
+    if isinstance(df, pd.DataFrame):
+        df = df.set_index(df.columns[0])  # Define a primeira coluna como índice
+
+    # Criar o gráfico
+    ax = df.head(10).plot(kind=tipo, figsize=(10, 5))
+    ax.set_title(titulo)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
+
+    # Configuração do eixo Y para evitar notação científica
+    ax.yaxis.set_major_formatter(ScalarFormatter())
+    ax.yaxis.get_major_formatter().set_scientific(False)  # Desativa notação científica
+    ax.yaxis.get_major_formatter().set_useOffset(False)  # Remove deslocamento
+
+    plt.legend(loc="upper right")  # Ajusta a posição da legenda
     plt.show()
 
 

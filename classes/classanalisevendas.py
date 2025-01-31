@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mticker
 from classes.classdatabasemanager import DatabaseManager
 from utils.funcoes import guardar_analise_csv, logging
 import os
@@ -65,6 +66,9 @@ class AnaliseVendas:
         # guarda o gráfico em PNG
         plt.savefig(nome_completo, dpi=300)
         
+        #configuração numero eixoy
+        plt.gca().yaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f'{int(x):,}'.replace(",", ".")))
+
         # Exibir e fechar a figura
         plt.show()
         plt.close()
