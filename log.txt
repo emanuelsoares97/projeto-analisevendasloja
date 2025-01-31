@@ -213,3 +213,45 @@ CREATE TABLE IF NOT EXISTS lojas (
 2025-01-31 14:28:13,032 - INFO - root - Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
 2025-01-31 14:29:20,750 - INFO - root - Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
 2025-01-31 14:29:22,269 - INFO - root - Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:16:48,360 - INFO - root - Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:25:03,434 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:25:27,050 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:25:58,745 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:27:40,142 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:28:26,148 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:28:50,909 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:29:16,602 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:29:16,614 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 16:34:56,807 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:34:56,820 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 16:40:01,986 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:40:01,999 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalcompras_por_cliente_2025-01-31.csv
+2025-01-31 16:41:32,793 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:41:35,373 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:41:54,621 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:42:03,173 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:42:03,186 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalcompras_por_cliente_2025-01-31.csv
+2025-01-31 16:42:16,060 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:42:16,074 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalcompras_por_cliente_2025-01-31.csv
+2025-01-31 16:42:50,600 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:43:32,583 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:43:49,826 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:43:49,846 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalcompras_por_cliente_2025-01-31.csv
+2025-01-31 16:44:02,095 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:44:02,109 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalcompras_por_cliente_2025-01-31.csv
+2025-01-31 16:48:39,751 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:48:39,762 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalcompras_por_cliente_2025-01-31.csv
+2025-01-31 16:48:39,762 - INFO - root - Tabela guardada: quantidade de compras cliente.
+2025-01-31 16:51:50,180 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:51:50,204 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalgasto_por_cliente_2025-01-31.csv
+2025-01-31 16:51:50,204 - INFO - root - Tabela guardada: total de compras cliente.
+2025-01-31 16:55:03,924 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:55:20,208 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:55:20,232 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalgasto_por_cliente_2025-01-31.csv
+2025-01-31 16:55:20,232 - INFO - root - Tabela guardada: total de compras cliente.
+2025-01-31 16:57:58,397 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 16:57:58,420 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalgasto_por_cliente_2025-01-31.csv
+2025-01-31 16:57:58,420 - INFO - root - Tabela guardada: total de compras cliente.
+2025-01-31 17:00:07,983 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 17:00:07,997 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalgasto_por_cliente_2025-01-31.csv
+2025-01-31 17:00:07,997 - INFO - root - Tabela guardada: total de compras cliente.
