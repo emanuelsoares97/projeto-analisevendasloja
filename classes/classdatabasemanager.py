@@ -1,11 +1,20 @@
 import sqlite3
 import pandas as pd
-import logging
+from utils.logger_utils import logging
+import os
+
 
 class DatabaseManager:
-    def __init__(self, db_path):
+    def __init__(self, db_path=None):
         """Inicializa a classe com o caminho do banco de dados."""
+        if db_path is None:
+            # Obtém automaticamente o caminho absoluto da raiz do projeto
+            root_dir = os.path.dirname(os.path.abspath(__file__))  # Caminho do arquivo atual
+            root_dir = os.path.dirname(root_dir)  # Sobe um nível para a raiz do projeto
+            db_path = os.path.join(root_dir, "database", "loja.db")
+
         self.db_path = db_path
+        logging.info(f"Usando banco de dados: {self.db_path}")
 
     def execute_query(self, query, params=None):
         """
@@ -72,34 +81,55 @@ class DatabaseManager:
         """
         tabela_produtos="""
 CREATE TABLE IF NOT EXISTS produtos (
-    id INTEGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT NOT NULL,
-    preco INTEGER NOT NULL
+    preco INTEGER NOT NULL,
+    categoria TEXT NOT NULL
 );
 """
         tabela_clientes="""
 CREATE TABLE IF NOT EXISTS clientes (
-    id INTEGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT NOT NULL,
-    email TEXT NOT NULL
+    email TEXT NOT NULL,
+    id_loja INTEGER NOT NULL,
+    FOREIGN KEY (id_loja) REFERENCES lojas(id_loja)
 );
 """
         tabela_vendas="""
 CREATE TABLE IF NOT EXISTS vendas (
-    id INTEGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     id_produto INTEGER NOT NULL,
     id_cliente INTEGER NOT NULL,
+    id_loja INTEGER NOT NULL,
     quantidade INTEGER NOT NULL,
     data DATE NOT NULL,
-    FOREIGN KEY (id_produto) REFERENCES produtos (id),
-    FOREIGN KEY (id_cliente) REFERENCES clientes (id)
+    FOREIGN KEY (id_produto) REFERENCES produtos(id),
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id),
+    FOREIGN KEY (id_loja) REFERENCES lojas(id_loja)
 );
-
 """
- 
+        tabela_lojas="""
+CREATE TABLE IF NOT EXISTS lojas (
+    id_loja INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome_loja TEXT NOT NULL,
+    zona_loja TEXT NOT NULL,
+    atendente TEXT NOT NULL,
+    gerente TEXT NOT NULL
+);
+"""
+
+        self.execute_query(tabela_lojas)
+        logging.info("Criada a tabela lojas.")
+
         self.execute_query(tabela_produtos)
-        self.execute_query(tabela_vendas)
+        logging.info("Criada a tabela produtos.")
+
         self.execute_query(tabela_clientes)
+        logging.info("Criada a tabela clientes.")
+        
+        self.execute_query(tabela_vendas)
+        logging.info("Criada a tabela vendas.")
 
     def execute_many(self, query, params_list):
         """
@@ -125,6 +155,6 @@ CREATE TABLE IF NOT EXISTS vendas (
             # Salvar os dados na tabela SQLite
             with sqlite3.connect(self.db_path) as conn:
                 df.to_sql(table_name, conn, if_exists="append", index=False)
-            print(f"Dados do arquivo {file_path} carregados na tabela '{table_name}' com sucesso.")
+            logging.info(f"Dados do arquivo {file_path} carregados na tabela '{table_name}' com sucesso.")
         except Exception as e:
-            print(f"Erro ao carregar {file_path} na tabela '{table_name}': {e}")
+            logging.error(f"Erro ao carregar {file_path} na tabela '{table_name}': {e}")

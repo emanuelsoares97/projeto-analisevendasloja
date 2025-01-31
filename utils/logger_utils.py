@@ -14,4 +14,3 @@ logging.basicConfig(
     encoding="utf-8"
 )
 
-logging.info("Logging configurado corretamente!")

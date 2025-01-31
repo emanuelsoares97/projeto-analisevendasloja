@@ -1,101 +1,11 @@
-id,nome,preco
-1,Produto 1,4872
-2,Produto 2,2680
-3,Produto 3,551
-4,Produto 4,3350
-5,Produto 5,4180
-6,Produto 6,3969
-7,Produto 7,3543
-8,Produto 8,1234
-9,Produto 9,1332
-10,Produto 10,2393
-11,Produto 11,2045
-12,Produto 12,4700
-13,Produto 13,4744
-14,Produto 14,3883
-15,Produto 15,3143
-16,Produto 16,2330
-17,Produto 17,4566
-18,Produto 18,1301
-19,Produto 19,3416
-20,Produto 20,2437
-21,Produto 21,4234
-22,Produto 22,2297
-23,Produto 23,1867
-24,Produto 24,4350
-25,Produto 25,2856
-26,Produto 26,1725
-27,Produto 27,2350
-28,Produto 28,3794
-29,Produto 29,3594
-30,Produto 30,716
-31,Produto 31,4098
-32,Produto 32,848
-33,Produto 33,4584
-34,Produto 34,786
-35,Produto 35,1192
-36,Produto 36,1469
-37,Produto 37,3296
-38,Produto 38,835
-39,Produto 39,4684
-40,Produto 40,2771
-41,Produto 41,571
-42,Produto 42,3254
-43,Produto 43,2798
-44,Produto 44,4419
-45,Produto 45,3145
-46,Produto 46,4994
-47,Produto 47,3640
-48,Produto 48,2771
-49,Produto 49,3507
-50,Produto 50,3924
-51,Produto 51,4899
-52,Produto 52,4868
-53,Produto 53,1679
-54,Produto 54,2788
-55,Produto 55,975
-56,Produto 56,1634
-57,Produto 57,4197
-58,Produto 58,3900
-59,Produto 59,1130
-60,Produto 60,4689
-61,Produto 61,4706
-62,Produto 62,4891
-63,Produto 63,2938
-64,Produto 64,4948
-65,Produto 65,946
-66,Produto 66,3960
-67,Produto 67,1474
-68,Produto 68,2278
-69,Produto 69,4979
-70,Produto 70,4050
-71,Produto 71,4929
-72,Produto 72,3179
-73,Produto 73,1806
-74,Produto 74,1973
-75,Produto 75,1871
-76,Produto 76,2402
-77,Produto 77,1076
-78,Produto 78,2525
-79,Produto 79,1788
-80,Produto 80,1413
-81,Produto 81,4644
-82,Produto 82,1950
-83,Produto 83,3277
-84,Produto 84,2721
-85,Produto 85,2938
-86,Produto 86,578
-87,Produto 87,4922
-88,Produto 88,798
-89,Produto 89,737
-90,Produto 90,4220
-91,Produto 91,4051
-92,Produto 92,3006
-93,Produto 93,1593
-94,Produto 94,612
-95,Produto 95,4233
-96,Produto 96,4604
-97,Produto 97,1884
-98,Produto 98,3449
-99,Produto 99,559
-100,Produto 100,2367
+nome,preco,categoria
+Portátil Dell XPS 13,120000,Portáteis
+MacBook Pro 16,250000,Portáteis
+Monitor LG UltraGear,45000,Monitores
+Teclado Mecânico HyperX,15000,Teclados
+Rato Logitech MX Master,12000,Ratos
+Placa Gráfica RTX 3080,350000,Placas Gráficas
+Processador AMD Ryzen 9,180000,Processadores
+Memória RAM Corsair 16GB,80000,Memórias RAM
+SSD NVMe Samsung 1TB,90000,Armazenamento
+Fonte Corsair 750W,60000,Fontes de Alimentação

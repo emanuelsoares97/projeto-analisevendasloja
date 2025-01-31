@@ -32,3 +32,133 @@ CREATE TABLE IF NOT EXISTS clientes (
 2025-01-28 20:07:33,180 - INFO - root - Logging configurado corretamente!
 2025-01-28 20:08:19,953 - INFO - root - Logging configurado corretamente!
 2025-01-28 20:08:20,188 - INFO - root - Ficheiro guardado com sucesso: C:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-28.csv
+2025-01-30 21:29:48,608 - INFO - root - Logging configurado corretamente!
+2025-01-30 21:29:48,608 - INFO - root - Base de dados apagada: loja.db
+2025-01-30 21:29:48,608 - INFO - root - Todas as tabelas e database foram eliminadas!
+2025-01-30 21:30:29,528 - INFO - root - Logging configurado corretamente!
+2025-01-30 21:30:29,528 - INFO - root - Nenhuma base de dados encontrada.
+2025-01-30 21:30:29,528 - INFO - root - Todas as tabelas e database foram eliminadas!
+2025-01-30 21:31:14,578 - INFO - root - Logging configurado corretamente!
+2025-01-30 21:31:14,578 - INFO - root - Nenhuma base de dados encontrada.
+2025-01-30 21:31:14,578 - INFO - root - Todas as tabelas e database foram eliminadas!
+2025-01-30 21:31:32,961 - INFO - root - Logging configurado corretamente!
+2025-01-30 21:31:32,961 - INFO - root - Nenhuma base de dados encontrada.
+2025-01-30 21:31:32,961 - INFO - root - Todas as tabelas e database foram eliminadas!
+2025-01-30 21:43:52,171 - INFO - root - Logging configurado corretamente!
+2025-01-30 21:43:52,171 - INFO - root - Nenhuma base de dados encontrada.
+2025-01-30 21:43:52,171 - INFO - root - Todas as tabelas e database foram eliminadas!
+2025-01-30 21:44:21,182 - INFO - root - Nenhuma base de dados encontrada.
+2025-01-30 21:44:21,183 - INFO - root - Todas as tabelas e database foram eliminadas!
+2025-01-30 21:44:32,731 - INFO - root - Nenhuma base de dados encontrada.
+2025-01-30 21:44:32,731 - INFO - root - Todas as tabelas e database foram eliminadas!
+2025-01-30 21:45:15,446 - INFO - root - Nenhuma base de dados encontrada.
+2025-01-30 21:45:15,447 - INFO - root - Todas as tabelas e database foram eliminadas!
+2025-01-30 21:45:58,992 - INFO - root - Nenhuma base de dados encontrada.
+2025-01-30 21:45:58,993 - INFO - root - Todas as tabelas e database foram eliminadas!
+2025-01-30 21:46:47,988 - INFO - root - Relatório apagado: ./data\clientes.csv
+2025-01-30 21:46:47,988 - INFO - root - Relatório apagado: ./data\produtos.csv
+2025-01-30 21:46:47,988 - INFO - root - Relatório apagado: ./data\top10_produtos_2025-01-28.csv
+2025-01-30 21:46:47,989 - INFO - root - Relatório apagado: ./data\top10_receita_por_produto_2025-01-28.csv
+2025-01-30 21:46:47,989 - INFO - root - Relatório apagado: ./data\vendas.csv
+2025-01-30 22:25:09,727 - INFO - root - Query executada com sucesso: 
+CREATE TABLE IF NOT EXISTS produtos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    preco INTEGER NOT NULL,
+    categoria TEXT NOT NULL
+);
+
+2025-01-30 22:25:09,727 - INFO - root - Criada a tabela produtos.
+2025-01-30 22:25:09,732 - INFO - root - Query executada com sucesso: 
+CREATE TABLE IF NOT EXISTS vendas (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_produto INTEGER NOT NULL,
+    id_cliente INTEGER NOT NULL,
+    id_loja INTEGER NOT NULL,
+    quantidade INTEGER NOT NULL,
+    data DATE NOT NULL,
+    FOREIGN KEY (id_produto) REFERENCES produtos(id),
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id),
+    FOREIGN KEY (id_loja) REFERENCES lojas(id_loja)
+);
+
+2025-01-30 22:25:09,732 - INFO - root - Criada a tabela vendas.
+2025-01-30 22:25:09,736 - INFO - root - Query executada com sucesso: 
+CREATE TABLE IF NOT EXISTS clientes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    email TEXT NOT NULL,
+    id_loja INTEGER NOT NULL,
+    FOREIGN KEY (id_loja) REFERENCES lojas(id_loja)
+);
+
+2025-01-30 22:25:09,736 - INFO - root - Criada a tabela clientes.
+2025-01-30 22:25:09,740 - INFO - root - Query executada com sucesso: 
+CREATE TABLE IF NOT EXISTS lojas (
+    id_loja INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome_loja TEXT NOT NULL,
+    zona_loja TEXT NOT NULL,
+    atendente TEXT NOT NULL,
+    gerente TEXT NOT NULL
+);
+
+2025-01-30 22:25:09,740 - INFO - root - Criada a tabela lojas.
+2025-01-30 22:25:09,740 - INFO - root - Tabelas criadas com sucesso!
+2025-01-30 22:25:09,748 - INFO - root - Dados de lojas carregados com sucesso!
+2025-01-30 22:25:09,754 - INFO - root - Dados de produtos carregados com sucesso!
+2025-01-30 22:25:09,760 - INFO - root - Dados de clientes carregados com sucesso!
+2025-01-30 22:25:09,767 - INFO - root - Dados de vendas carregados com sucesso!
+2025-01-30 22:25:09,768 - INFO - root - Base de dados criada e dados importados com sucesso.
+2025-01-31 10:22:25,678 - INFO - matplotlib.font_manager - generated new fontManager
+2025-01-31 10:22:26,332 - INFO - root - Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:33:40,604 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:33:40,614 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:33:40,617 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:35:41,550 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:35:41,560 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:35:41,563 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:36:32,462 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:36:32,471 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:36:32,474 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:38:13,647 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:38:13,657 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:38:13,661 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:39:00,231 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:39:00,241 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:39:00,244 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:42:18,949 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:42:18,964 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:42:18,968 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:43:01,838 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:43:01,850 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:43:01,853 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:44:00,975 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:44:00,987 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:44:00,990 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:44:47,460 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:44:47,470 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:44:47,473 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:46:18,756 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:46:18,766 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:46:18,769 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:51:54,213 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:51:54,223 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:51:54,227 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:52:15,523 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:52:15,532 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:52:15,535 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:52:44,208 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:52:44,218 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:52:44,221 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:53:22,521 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:53:22,530 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:53:22,533 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 10:59:32,980 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 10:59:32,990 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 10:59:32,993 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 11:01:47,785 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 11:01:47,794 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 11:01:47,797 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv
+2025-01-31 11:01:56,194 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 11:01:56,203 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_receita_por_produto_2025-01-31.csv
+2025-01-31 11:01:56,206 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_produtos_mais_vendidos_2025-01-31.csv

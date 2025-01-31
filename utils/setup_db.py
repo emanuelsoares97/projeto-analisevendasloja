@@ -1,0 +1,28 @@
+from classes.classdatabasemanager import DatabaseManager
+from utils.logger_utils import logging
+
+def main():
+    # Inicializar o DatabaseManager
+    db_manager = DatabaseManager("database/loja.db")
+
+    # Criar tabelas no banco de dados
+    db_manager.create_table()
+    logging.info("Tabelas criadas com sucesso!")
+
+    # Lista de tabelas e seus arquivos CSV correspondentes
+    arquivos_csv = {
+        "lojas": "./data/Lojas.csv",
+        "produtos": "./data/Produtos.csv",
+        "clientes": "./data/Clientes.csv",
+        "vendas": "./data/Vendas.csv"
+    }
+
+    # Carregar os dados do CSV para o SQLite
+    for tabela, arquivo in arquivos_csv.items():
+        db_manager.load_csv_to_table(arquivo, tabela)
+        logging.info(f"Dados de {tabela} carregados com sucesso!")
+    logging.info("Base de dados criada e dados importados com sucesso.")
+
+# Garantir que só roda se for executado diretamente
+if __name__ == "__main__":
+    main()

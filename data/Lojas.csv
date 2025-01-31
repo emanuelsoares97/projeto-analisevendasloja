@@ -1,0 +1,6 @@
+id_loja,nome_loja,zona_loja,atendente,gerente
+1,Loja Centro,Zona Central,Ana Silva,Carlos Mendes
+2,Loja Norte,Zona Norte,Bruno Ferreira,Mariana Rocha
+3,Loja Sul,Zona Sul,Patrícia Gomes,Rafael Souza
+4,Loja Leste,Zona Leste,Lucas Andrade,Fernanda Costa
+5,Loja Oeste,Zona Oeste,Beatriz Lima,Rodrigo Martins
