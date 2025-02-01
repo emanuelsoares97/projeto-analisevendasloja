@@ -255,3 +255,10 @@ CREATE TABLE IF NOT EXISTS lojas (
 2025-01-31 17:00:07,983 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
 2025-01-31 17:00:07,997 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\top10_totalgasto_por_cliente_2025-01-31.csv
 2025-01-31 17:00:07,997 - INFO - root - Tabela guardada: total de compras cliente.
+2025-01-31 18:08:48,052 - INFO - root - Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 18:12:06,968 - INFO - root - Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 18:12:19,063 - INFO - root - Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 18:37:36,646 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 18:37:51,534 - INFO - root - Usando banco de dados: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\database\loja.db
+2025-01-31 18:37:51,546 - INFO - root - Ficheiro guardado com sucesso: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseVendas\utils\..\data\total_faturado_loja_2025-01-31.csv
+2025-01-31 18:37:51,547 - INFO - root - Tabela guardada: total faturado por loja.
