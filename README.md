@@ -1,4 +1,4 @@
-# Projeto Análise de Vendas
+# Projeto Análise de Loja
 
 ## Descrição
 
