@@ -1,11 +1,51 @@
-nome,preco,categoria
-Portátil Dell XPS 13,120000,Portáteis
-MacBook Pro 16,250000,Portáteis
-Monitor LG UltraGear,45000,Monitores
-Teclado Mecânico HyperX,15000,Teclados
-Rato Logitech MX Master,12000,Ratos
-Placa Gráfica RTX 3080,350000,Placas Gráficas
-Processador AMD Ryzen 9,180000,Processadores
-Memória RAM Corsair 16GB,80000,Memórias RAM
-SSD NVMe Samsung 1TB,90000,Armazenamento
-Fonte Corsair 750W,60000,Fontes de Alimentação
+ID_Produto,Nome_Produto,Categoria,Preço
+1,rest,Roupas,380.64
+2,next,Brinquedos,822.26
+3,discuss,Móveis,220.27
+4,professor,Alimentos,453.94
+5,no,Alimentos,887.23
+6,enjoy,Móveis,916.23
+7,side,Brinquedos,184.19
+8,keep,Roupas,944.27
+9,girl,Móveis,143.71
+10,agency,Móveis,680.54
+11,lay,Brinquedos,247.2
+12,small,Roupas,795.91
+13,discover,Brinquedos,453.86
+14,office,Brinquedos,188.55
+15,fast,Eletrônicos,344.81
+16,item,Brinquedos,845.14
+17,fact,Brinquedos,628.04
+18,side,Móveis,254.49
+19,know,Roupas,446.91
+20,series,Alimentos,541.86
+21,dinner,Eletrônicos,196.56
+22,out,Móveis,812.8
+23,anything,Roupas,780.73
+24,network,Eletrônicos,523.54
+25,activity,Roupas,240.84
+26,summer,Móveis,662.21
+27,begin,Eletrônicos,357.52
+28,positive,Brinquedos,949.18
+29,white,Eletrônicos,896.58
+30,already,Eletrônicos,616.41
+31,describe,Alimentos,945.82
+32,represent,Brinquedos,859.32
+33,catch,Brinquedos,271.49
+34,board,Brinquedos,716.57
+35,happy,Eletrônicos,828.77
+36,cell,Brinquedos,912.25
+37,minute,Roupas,298.25
+38,fall,Eletrônicos,957.82
+39,policy,Roupas,917.53
+40,tell,Alimentos,911.6
+41,community,Alimentos,851.16
+42,agreement,Roupas,208.23
+43,though,Brinquedos,794.47
+44,population,Alimentos,652.5
+45,side,Móveis,268.72
+46,easy,Móveis,830.9
+47,nothing,Móveis,132.91
+48,including,Móveis,141.43
+49,information,Roupas,310.02
+50,enough,Roupas,131.87

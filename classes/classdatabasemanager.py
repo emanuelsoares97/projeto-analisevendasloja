@@ -1,12 +1,13 @@
 import sqlite3
 import pandas as pd
-from utils.logger_utils import logging
+from utils.logger_utils import get_logger
 import os
 
 
 class DatabaseManager:
     def __init__(self, db_path=None):
         """Inicializa a classe com o caminho do banco de dados."""
+        self.logger=get_logger("DatabaseManager")
         if db_path is None:
             # Obtém automaticamente o caminho absoluto da raiz do projeto
             root_dir = os.path.dirname(os.path.abspath(__file__))  # Caminho do arquivo atual
@@ -14,7 +15,7 @@ class DatabaseManager:
             db_path = os.path.join(root_dir, "database", "loja.db")
 
         self.db_path = db_path
-        logging.info(f"Usando banco de dados: {self.db_path}")
+        self.logger.info(f"Usando banco de dados: {self.db_path}")
 
     def execute_query(self, query, params=None):
         """
@@ -31,9 +32,9 @@ class DatabaseManager:
                 else:
                     cursor.execute(query)
                 conn.commit()
-                logging.info(f"Query executada com sucesso: {query}")
+                self.logger.info(f"Query executada com sucesso: {query}")
         except sqlite3.Error as e:
-            logging.error(f"Erro ao executar a query: {e}")
+            self.logger.error(f"Erro ao executar a query: {e}")
             raise
 
 
@@ -98,15 +99,17 @@ CREATE TABLE IF NOT EXISTS clientes (
 """
         tabela_vendas="""
 CREATE TABLE IF NOT EXISTS vendas (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_venda INTEGER PRIMARY KEY AUTOINCREMENT,
     id_produto INTEGER NOT NULL,
     id_cliente INTEGER NOT NULL,
     id_loja INTEGER NOT NULL,
+    id_atendente INTEGER NOT NULL,  -- NOVO CAMPO
     quantidade INTEGER NOT NULL,
     data DATE NOT NULL,
     FOREIGN KEY (id_produto) REFERENCES produtos(id),
     FOREIGN KEY (id_cliente) REFERENCES clientes(id),
-    FOREIGN KEY (id_loja) REFERENCES lojas(id_loja)
+    FOREIGN KEY (id_loja) REFERENCES lojas(id),
+    FOREIGN KEY (id_atendente) REFERENCES atendentes(id_atendente) -- RELACIONANDO A VENDA COM O ATENDENTE
 );
 """
         tabela_lojas="""
@@ -114,22 +117,32 @@ CREATE TABLE IF NOT EXISTS lojas (
     id_loja INTEGER PRIMARY KEY AUTOINCREMENT,
     nome_loja TEXT NOT NULL,
     zona_loja TEXT NOT NULL,
-    atendente TEXT NOT NULL,
     gerente TEXT NOT NULL
 );
 """
+        tabela_atendentes="""CREATE TABLE IF NOT EXISTS atendentes (
+    id_atendente INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome_atendente TEXT NOT NULL,
+    id_loja INTEGER NOT NULL,
+    FOREIGN KEY (id_loja) REFERENCES lojas(id_loja)
+);
+"""
 
+        # Criar tabelas na ordem correta
         self.execute_query(tabela_lojas)
-        logging.info("Criada a tabela lojas.")
+        self.logger.info("Criada a tabela lojas.")
 
-        self.execute_query(tabela_produtos)
-        logging.info("Criada a tabela produtos.")
+        self.execute_query(tabela_atendentes)
+        self.logger.info("Criada a tabela atendentes.")
 
         self.execute_query(tabela_clientes)
-        logging.info("Criada a tabela clientes.")
-        
+        self.logger.info("Criada a tabela clientes.")
+
+        self.execute_query(tabela_produtos)
+        self.logger.info("Criada a tabela produtos.")
+
         self.execute_query(tabela_vendas)
-        logging.info("Criada a tabela vendas.")
+        self.logger.info("Criada a tabela vendas.")
 
     def execute_many(self, query, params_list):
         """
@@ -154,7 +167,7 @@ CREATE TABLE IF NOT EXISTS lojas (
             df = pd.read_csv(file_path)
             # Salvar os dados na tabela SQLite
             with sqlite3.connect(self.db_path) as conn:
-                df.to_sql(table_name, conn, if_exists="append", index=False)
-            logging.info(f"Dados do arquivo {file_path} carregados na tabela '{table_name}' com sucesso.")
+                df.to_sql(table_name, conn, if_exists="replace", index=False)
+            self.logger.info(f"Dados do arquivo {file_path} carregados na tabela '{table_name}' com sucesso.")
         except Exception as e:
-            logging.error(f"Erro ao carregar {file_path} na tabela '{table_name}': {e}")
+            self.logger.error(f"Erro ao carregar {file_path} na tabela '{table_name}': {e}")

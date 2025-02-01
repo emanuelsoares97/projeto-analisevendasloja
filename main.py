@@ -1,29 +1,49 @@
 from classes.classdatabasemanager import DatabaseManager
-from utils.funcoes import guardar_analise_csv
 from classes.classanalisevendas import AnaliseVendas
 from classes.classanaliseclientes import AnaliseClientes
 from classes.classanaliselojas import AnaliseLojas
+from utils.logger_utils import get_logger
+from utils.graficos import gerar_grafico
 
-# Inicializar DatabaseManager
-db_manager = DatabaseManager()
+# Criar o logger para a main
+logger = get_logger("Main")
 
-"""# Criar instância da classe de análises
-analise = AnaliseVendas(db_manager)
+def main():
+    try:
+        db_manager = DatabaseManager()
+        
+        # Criar instâncias das análises
+        analise_vendas = AnaliseVendas(db_manager)
+        analise_clientes = AnaliseClientes(db_manager)
+        analise_lojas = AnaliseLojas(db_manager)
 
-# Rodar análises
-receita_df = analise.calcular_receita_por_produto()
-produtos_vendidos_df = analise.calcular_produtos_mais_vendidos()
+        # Executar todas as análises
+        logger.info("Gerar análises de vendas...")
+        receita_df = analise_vendas.calcular_receita_por_produto()
+        gerar_grafico(receita_df, "Top 10 Produtos com Maior Receita", "Produto", "Receita Total", "top10_receita")
+        produtos_vendidos_df = analise_vendas.calcular_produtos_mais_vendidos()
+        gerar_grafico(produtos_vendidos_df, "Top 10 Produtos Mais Vendidos", "Produto", "Quantidade", "top10_vendas")
 
-# Gerar gráficos
-analise.gerar_grafico(receita_df, "Top 10 Produtos com Maior Receita", "Produto", "Receita", "Top 10 Produtos com Maior Receita")
-analise.gerar_grafico(produtos_vendidos_df, "Top 10 Produtos Mais Vendidos", "Produto", "Quantidade Vendida", "Top 10 Produtos Mais Vendidos")
+        logger.info("Gerar análises de clientes...")
+        clientes_gasto_df = analise_clientes.calcular_total_gasto_por_cliente()
+        gerar_grafico(clientes_gasto_df, "Top 10 Clientes que Mais Gastaram", "Cliente", "Receita Total", "top10_gasto_clientes")
+        clientes_qtd_df = analise_clientes.calcular_total_compras_por_cliente()
+        gerar_grafico(clientes_qtd_df, "Top 10 Clientes que Mais Compraram", "Cliente", "Quantidade", "top10_qtd_clientes")
 
-analise_clientes=AnaliseClientes(db_manager)
-clientes=analise_clientes.calcular_totalgasto_por_clientetop10()
+        logger.info("Gerar análises de lojas...")
+        faturado_loja_df = analise_lojas.total_faturado_por_loja()
+        gerar_grafico(faturado_loja_df, "Total Faturado por Loja", "Loja", "Receita Total", "faturamento_lojas")
 
-analise_clientes.gerar_grafico(clientes, "total", "cliente", "quantidade", "top10quantidade")"""
+        total_vendas_loja_df = analise_lojas.total_vendas_por_loja()
+        gerar_grafico(total_vendas_loja_df, "Total de Produtos Vendidos por Loja", "Loja", "Quantidade", "vendas_lojas")
 
-analise_loja= AnaliseLojas(db_manager)
+        ticket_medio_loja_df = analise_lojas.media_ticket_loja()
+        gerar_grafico(ticket_medio_loja_df, "Média de Venda por Loja", "Loja", "Ticket Médio", "ticket_medio_lojas")
 
-lojas=analise_loja.total_faturado_loja()
-print(lojas)
+        logger.info("Todas as análises foram geradas com sucesso!")
+    except Exception as e:
+        logger.error(f"Não foi possivel gerar todas as analises, erro: {e}")
+        return
+
+if __name__ == "__main__":
+    main()

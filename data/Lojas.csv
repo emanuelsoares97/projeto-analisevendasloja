@@ -1,6 +1,101 @@
-id_loja,nome_loja,zona_loja,atendente,gerente
-1,Loja Centro,Zona Central,Ana Silva,Carlos Mendes
-2,Loja Norte,Zona Norte,Bruno Ferreira,Mariana Rocha
-3,Loja Sul,Zona Sul,Patrícia Gomes,Rafael Souza
-4,Loja Leste,Zona Leste,Lucas Andrade,Fernanda Costa
-5,Loja Oeste,Zona Oeste,Beatriz Lima,Rodrigo Martins
+ID_Loja,Nome_Loja,Endereço,Telefone
+1,"Perez, Phillips and Fitzpatrick","20944 Maurice Summit
+Morenostad, VT 50348",+1-723-083-8020x23905
+2,Johnson and Sons,"8382 Townsend Park
+Wallacetown, UT 48618",810-356-4992x40290
+3,Murphy Inc,"218 Crosby Summit
+Johnmouth, RI 26384",363-637-9160x148
+4,Bennett Group,"34823 Patel Cliff
+North Andrew, NY 71985",181.111.2769x8119
+5,Stephens-Henderson,"6640 Vaughan Creek
+Port Coryland, MI 21419",7167931950
+6,Curry-Massey,"PSC 2899, Box 9276
+APO AA 60159",(978)259-1895x865
+7,"Smith, Weaver and Mack","436 Jared Tunnel
+Duarteborough, WY 09264",800-430-5042
+8,Dixon and Sons,"1493 Benjamin Camp
+Scottberg, NY 17848",8170286294
+9,Williams and Sons,"366 Carroll Lake Suite 582
+Peterchester, IA 23568",837-929-3442x931
+10,Scott-Gilmore,"2665 Sampson Bypass
+Kylemouth, MA 05768",051.482.4784
+11,Berry PLC,"8041 Wade Plains
+Port Charlesstad, IN 19976",682-225-4985x6924
+12,"Patel, Williams and Cook","597 Freeman Springs Suite 062
+West Jonathanview, ME 49681",958-955-3436
+13,Payne and Sons,"898 Elizabeth Walk
+Hughesmouth, MS 41114",924.931.3325
+14,Roberts PLC,"3344 Murphy Expressway Apt. 502
+North Robertfort, PA 69742",001-148-299-4743x07826
+15,Mayer-Mitchell,"690 David Land
+Arellanoland, ND 30306",+1-156-603-5146x2772
+16,Moore PLC,"09087 Pearson Locks
+Mosleybury, FL 40265",+1-710-211-2688x890
+17,"White, Roman and Morris","102 Michael Pike
+Khanton, SC 99394",885-539-9174
+18,Gentry-Walker,"735 Gregory Creek Suite 489
+West Joel, IL 48210",(154)624-2306
+19,Mills-Cooper,"2766 Jeremy Freeway Apt. 064
+South Daniel, DC 57033",(334)491-8911x3493
+20,Miranda Ltd,"46170 Duncan Stream
+West Andrew, PA 89786",887.115.0729x296
+21,Cox-Benton,"330 Thomas Coves Suite 420
+West Gregory, AR 89152",001-121-177-7066x37266
+22,"Butler, Salinas and Tapia","047 Jennifer Creek
+South Curtisshire, CA 53007",+1-437-864-6098x21135
+23,Miller-Beltran,"045 Claire Glen Apt. 077
+Lake Michaelborough, MA 60953",699-175-3696
+24,Palmer-Hill,"USS Hall
+FPO AP 32472",519.716.3345x2679
+25,"Waller, Sullivan and Boyd","18134 Tiffany Views Suite 165
+Robertburgh, VT 86419",751-823-3042
+26,Newton Inc,"821 Price Meadow Apt. 128
+Port Melissa, ND 15836",894.563.9269x74303
+27,Hansen LLC,"17978 Steven Lock Suite 366
+Susanville, OK 63697",3160417838
+28,Fitzgerald Group,"69692 Benjamin Bypass Apt. 026
+North Jenniferburgh, NM 67076",(740)532-5854x9008
+29,Turner-Miller,"4160 Castaneda Falls
+North Paulaborough, NM 34619",422.930.0542
+30,"Anthony, White and Hughes","PSC 2041, Box 9383
+APO AA 34469",010.037.2969
+31,Spence-Austin,"8357 Hodges Port Suite 267
+South Nicole, KS 25002",287-174-4063x60654
+32,"Thompson, Brown and Irwin","62984 Mcdaniel Drive Suite 783
+Mitchellmouth, DE 84866",(406)324-6631x353
+33,Castillo-Cameron,"3358 Natalie Mews
+Torresborough, DC 79244",+1-723-282-4577x66845
+34,Burton-Banks,"7654 Rachel Valley Apt. 820
+Tuckerville, NE 48791",752-960-0019x34293
+35,"Martin, Gonzales and Grant","4998 Alan Meadow
+Port Laurenmouth, MD 73270",483-209-9878x1168
+36,Nash-Miller,"27379 Julie Street Apt. 502
+Waterschester, CO 70871",634-252-3522
+37,Brown-Miller,"880 Michele Islands
+Reyeshaven, TX 91880",999.337.9245x91285
+38,"Lee, Ward and Martinez","9694 Evans Common
+Robertville, DE 89777",0952870997
+39,Rush PLC,"51144 Sullivan Falls Suite 063
+Port Alyssaton, RI 44307",488.355.2973
+40,"Lee, Marquez and Greene","399 Tanya Plaza Apt. 357
+Lake Peggy, FL 08858",+1-864-725-3501x7888
+41,"Espinoza, Cole and Jordan","721 Rich Pine Apt. 958
+South Kellymouth, NE 52809",761-325-5282x6583
+42,"Reyes, Herman and Sherman","030 James Summit
+Port Chadstad, VT 03942",825-321-1668x8105
+43,Mcclain Inc,"0443 Nelson Glen
+Port Steven, VT 48299",952.096.0182x2464
+44,"Mendoza, Ramirez and Peterson","180 Anderson Inlet
+Glennmouth, MD 24806",330.133.0205x4657
+45,"Contreras, West and Palmer","2947 Michael Causeway
+Francesberg, OK 58773",615-935-1485x52207
+46,Harris Inc,"USCGC Cook
+FPO AA 75283",(932)373-6729
+47,"Robles, Weber and Garcia","5240 Hamilton Dam Suite 475
+Lake Christyside, MO 22028",+1-482-838-1161
+48,"Morgan, Webb and Montgomery","302 Mathis Viaduct
+Port Johnville, DE 10684",+1-956-531-2883
+49,"Clark, Richard and Bryant","947 Smith Groves
+Tiffanyton, NM 36754",415-455-9747x81246
+50,Wells PLC,"2769 Green Circle
+Heatherville, SC 62813",4217890227
