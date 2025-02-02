@@ -1,10 +1,6 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mticker
+import pandas
 from utils.funcoes import guardar_analise_csv, merge_tabelas
 from utils.logger_utils import get_logger
-import os
-from datetime import datetime
 
 class AnaliseVendas:
     def __init__(self, db_manager):
@@ -13,15 +9,6 @@ class AnaliseVendas:
         self.db_manager = db_manager
         self.df_merged = merge_tabelas(db_manager)
         self.logger.info(f"Colunas após o merge: {self.df_merged.columns}")
-
-
-        # Garante que os nomes das colunas estão padronizados
-        self.df_merged.rename(columns={
-            "nome": "Produto",
-            "preco": "Preco",
-            "quantidade": "Quantidade",
-            "Receita_Venda": "Receita Total"
-        }, inplace=True)
 
         self.logger.info("Base de dados carregada e normalizada para análises.")
 
@@ -55,8 +42,3 @@ class AnaliseVendas:
         except Exception as e:
             self.logger.error(f"Erro ao calcular produtos mais vendidos: {e}")
             return None
-
-
-
-
-

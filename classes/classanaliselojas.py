@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 from utils.funcoes import guardar_analise_csv, merge_tabelas
 from utils.logger_utils import get_logger
-import os
 from datetime import datetime
 
 class AnaliseLojas:
@@ -36,4 +35,22 @@ class AnaliseLojas:
         self.logger.info("Tabela guardada: ticket médio por loja.")
         return media_ticket.head(10)
 
+    def atendentes_por_loja(self):
+        """Tabela com o número de atendentes por loja."""
+        try:
+            if self.df_merged is None:
+                raise ValueError("Os dados não foram carregados corretamente.")
+
+            atendentes_por_loja = self.df_merged.groupby("Loja")["Atendente"].nunique().reset_index()
+            atendentes_por_loja.rename(columns={"Atendente": "Número de Atendentes"}, inplace=True)
+
+            # Guardar CSV
+            guardar_analise_csv(atendentes_por_loja, "atendentes_por_loja")
+            self.logger.info("Ficheiro guardado: atendentes_por_loja")
+
+            return atendentes_por_loja
+
+        except Exception as e:
+            self.logger.error(f"Erro ao calcular número de atendentes por loja: {e}")
+            return None
 

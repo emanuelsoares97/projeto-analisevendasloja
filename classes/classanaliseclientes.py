@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 from utils.funcoes import guardar_analise_csv, merge_tabelas
 from utils.logger_utils import get_logger
-import os
 from datetime import datetime
 
 class AnaliseClientes:
