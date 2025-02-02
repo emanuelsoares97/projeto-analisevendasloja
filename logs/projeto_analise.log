@@ -3015,3 +3015,8 @@ Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype=
 2025-02-01 17:58:53,913 | INFO | GeradorGraficos | Gráfico gerado com sucesso para Média de Venda por Loja.
 2025-02-01 17:58:54,257 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\graficos\ticket_medio_lojas_2025-02-01_17-58-53.png
 2025-02-01 17:58:55,019 | INFO | Main | Todas as análises foram geradas com sucesso!
+2025-02-01 18:33:37,702 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-01 18:43:54,431 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-02 12:03:03,612 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-02 12:03:13,728 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-02 12:05:22,830 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
