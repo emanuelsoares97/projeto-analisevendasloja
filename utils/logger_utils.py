@@ -4,7 +4,7 @@ import logging
 # Criar diretório para logs se não existir
 caminho_projeto = os.path.dirname(os.path.abspath(__file__))  # Caminho do logger_utils.py
 caminho_raiz = os.path.join(caminho_projeto, "..")  # Diretório raiz do projeto
-caminho_logs = os.path.join(caminho_raiz, "logs")  # Criar pasta logs no mesmo nível do main.py
+caminho_logs = os.path.join(caminho_raiz, "logs")  # Criar pasta logs
 os.makedirs(caminho_logs, exist_ok=True)  # Criar diretório se não existir
 
 # Caminho do ficheiro de log

@@ -39,6 +39,37 @@ def criar_graficos_matplotlib_pyplot(df, titulo, xlabel, ylabel, tipo="bar"):
     plt.legend(loc="upper right")  # Ajusta a posição da legenda
     plt.show()
 
+logger_erros = get_logger("TratamentoErros")
+def registrar_erros(df, coluna_verificacao, valor_invalido, nome_ficheiro):
+    """
+    Filtra registros inválidos e os salva em um log de erros.
+
+    :param df: DataFrame contendo os dados.
+    :param coluna_verificacao: Nome da coluna a verificar (ex: "Atendente").
+    :param valor_invalido: Valor que indica erro (ex: "Desconhecido" ou NaN).
+    :param nome_ficheiro: Nome base do arquivo de erro (ex: "erros_atendentes.csv").
+
+    :return: DataFrame limpo, sem registros inválidos.
+    """
+    # Criar pasta logs se não existir
+    caminho_logs = "logs"
+    os.makedirs(caminho_logs, exist_ok=True)
+
+    # Filtra registros inválidos
+    if isinstance(valor_invalido, str):
+        df_erros = df[df[coluna_verificacao] == valor_invalido]
+    else:
+        df_erros = df[df[coluna_verificacao].isna()]
+
+    # Se houver erros, salvar no CSV de erros
+    if not df_erros.empty:
+        caminho_arquivo = os.path.join(caminho_logs, nome_ficheiro)
+        df_erros.to_csv(caminho_arquivo, index=False)
+        logger_erros.warning(f"{len(df_erros)} registros inválidos salvos em {caminho_arquivo}")
+
+    # Retorna o DataFrame limpo, sem os registros inválidos
+    return df.drop(df_erros.index)
+
 loggercv= get_logger("guardar_analise_csv")
 def guardar_analise_csv(df, nome_ficheiro):
     """
@@ -115,15 +146,14 @@ def merge_tabelas(db_manager):
             raise ValueError(f"A tabela '{table_name}' não contém as colunas necessárias: {missing_cols}")
 
     # Merge das tabelas
-    df_merged = df_vendas.merge(df_produtos, on="ID_Produto")
-    df_merged = df_merged.merge(df_clientes, on="ID_Cliente")
-    df_merged = df_merged.merge(df_lojas, on="ID_Loja")
-    df_merged = df_merged.merge(df_atendentes, on="ID_Atendente")
+    df_merged = df_vendas.merge(df_produtos, on="ID_Produto", how="left")
+    df_merged = df_merged.merge(df_clientes, on="ID_Cliente", how="left")
+    df_merged = df_merged.merge(df_lojas, on="ID_Loja", how="left")
+    df_merged = df_merged.merge(df_atendentes, on="ID_Atendente", how="left")
 
     loggermerge.info("Merge das tabelas realizado com sucesso.")
-    loggermerge.info(f"Colunas após merge: {df_merged.columns}")
 
-    # ✅ **Garantir que 'Preço' e 'Quantidade' existem antes de criar 'Receita Total'**
+    # **Garantir que 'Preço' e 'Quantidade' existem antes de criar 'Receita Total'**
     if "Preço" in df_merged.columns and "Quantidade" in df_merged.columns:
         df_merged["Receita Total"] = df_merged["Preço"] * df_merged["Quantidade"]
         loggermerge.info("Coluna 'Receita Total' criada.")
@@ -143,6 +173,15 @@ def merge_tabelas(db_manager):
         "Nome_Loja": "Loja",
         "Nome_x": "Cliente",  # Nome correto do cliente
         "Nome_y": "Atendente"  # Nome correto do atendente
+    }, inplace=True)
+
+    # Tratar valores nulos
+    df_merged.fillna({
+        "Quantidade": 0,  # Se não tiver quantidade, assume 0
+        "Receita_Total": 0,  # Se faltar preço ou quantidade, assume 0
+        "Atendente": "Desconhecido",  # Se não tiver atendente, preenche com "Desconhecido"
+        "Loja": "Não Informado",  # Se não tiver loja, coloca "Não Informado"
+        "Produto": "Desconhecido",  # Produto sem nome recebe "Desconhecido"
     }, inplace=True)
 
     loggermerge.info(f"Colunas renomeadas: {df_merged.columns}")
