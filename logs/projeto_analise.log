@@ -6362,3 +6362,1737 @@ Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype=
 2025-02-04 13:04:30,576 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2025-02-04 13:04:30,578 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2025-02-04 13:04:30,673 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:19:36,946 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:19:36,958 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:19:36,958 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:19:36,964 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:19:36,965 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:19:36,969 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:19:57,941 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:19:57,956 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:19:57,956 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:19:57,962 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:19:57,962 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:19:57,965 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:22:39,054 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:22:39,068 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:22:39,068 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:22:39,073 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:22:39,074 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:22:39,077 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:22:39,362 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:22:39,362 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:22:39,369 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:22:39,370 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:22:39,378 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:22:39,378 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:22:39,382 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:22:39,387 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:22:39,387 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:22:39,393 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:22:39,393 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:22:39,396 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:22:39,397 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:22:39,397 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:22:39,402 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:22:39,402 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:22:39,408 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:22:39,408 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:22:39,411 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:22:39,411 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:22:39,412 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:22:39,417 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-22-39.csv
+2025-02-04 14:22:39,417 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:22:39,420 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-22-39.csv
+2025-02-04 14:22:39,421 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:22:39,423 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-22-39.csv
+2025-02-04 14:22:39,423 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:22:39,425 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-22-39.csv
+2025-02-04 14:22:39,425 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:22:39,427 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-22-39.csv
+2025-02-04 14:22:39,427 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:22:39,430 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:22:39,433 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:22:41,403 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:23:05,061 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:23:05,077 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:23:05,078 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:23:05,083 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:23:05,084 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:23:05,087 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:23:05,156 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:23:05,156 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:23:05,164 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:23:05,165 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:23:05,172 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:23:05,172 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:23:05,175 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:23:05,181 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:23:05,181 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:23:05,187 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:23:05,187 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:23:05,190 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:23:05,190 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:23:05,190 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:23:05,196 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:23:05,196 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:23:05,201 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:23:05,202 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:23:05,204 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:23:05,204 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:23:05,204 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:23:05,207 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-23-05.csv
+2025-02-04 14:23:05,207 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:23:05,211 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-23-05.csv
+2025-02-04 14:23:05,212 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:23:05,214 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-23-05.csv
+2025-02-04 14:23:05,214 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:23:05,216 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-23-05.csv
+2025-02-04 14:23:05,216 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:23:05,218 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-23-05.csv
+2025-02-04 14:23:05,218 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:23:05,220 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:23:05,223 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:23:05,893 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:24:29,026 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:24:29,027 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:24:29,037 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:24:29,038 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:24:29,044 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:24:29,045 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:24:29,049 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:24:29,054 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:24:29,054 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:24:29,059 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:24:29,060 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:24:29,063 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:24:29,063 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:24:29,063 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:24:29,068 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:24:29,068 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:24:29,074 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:24:29,074 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:24:29,077 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:24:29,077 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:24:29,077 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:24:29,081 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-24-29.csv
+2025-02-04 14:24:29,081 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:24:29,084 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-24-29.csv
+2025-02-04 14:24:29,084 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:24:29,086 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-24-29.csv
+2025-02-04 14:24:29,086 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:24:29,088 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-24-29.csv
+2025-02-04 14:24:29,088 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:24:29,090 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-24-29.csv
+2025-02-04 14:24:29,090 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:24:29,092 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:24:29,095 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:24:29,790 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:27:30,069 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:27:30,083 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:27:30,083 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:27:30,088 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:27:30,089 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:27:30,092 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:27:30,152 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:27:30,152 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:27:30,158 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:27:30,159 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:27:30,164 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:27:30,165 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:27:30,168 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:27:30,173 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:27:30,173 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:27:30,179 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:27:30,180 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:27:30,183 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:27:30,183 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:27:30,183 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:27:30,188 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:27:30,188 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:27:30,195 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:27:30,196 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:27:30,199 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:27:30,200 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:27:30,200 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:27:30,203 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-27-30.csv
+2025-02-04 14:27:30,203 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:27:30,206 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-27-30.csv
+2025-02-04 14:27:30,206 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:27:30,210 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-27-30.csv
+2025-02-04 14:27:30,211 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:27:30,212 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-27-30.csv
+2025-02-04 14:27:30,213 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:27:30,214 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-27-30.csv
+2025-02-04 14:27:30,214 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:27:30,217 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:27:30,220 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:27:30,230 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:27:30,232 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:27:30,360 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:27:30,384 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:27:30,384 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:27:30,394 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:27:30,394 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:27:30,402 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:27:30,402 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:27:30,405 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:27:30,412 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:27:30,413 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:27:30,419 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:27:30,419 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:27:30,422 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:27:30,422 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:27:30,422 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:27:30,429 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:27:30,429 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:27:30,434 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:27:30,434 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:27:30,437 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:27:30,438 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:27:30,438 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:27:30,442 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-27-30.csv
+2025-02-04 14:27:30,442 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:27:30,446 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-27-30.csv
+2025-02-04 14:27:30,446 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:27:30,448 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-27-30.csv
+2025-02-04 14:27:30,448 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:27:30,450 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-27-30.csv
+2025-02-04 14:27:30,450 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:27:30,452 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-27-30.csv
+2025-02-04 14:27:30,452 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:27:30,454 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:27:30,458 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:27:31,194 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:32:38,469 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:32:38,487 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:32:38,488 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:32:38,494 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:32:38,494 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:32:38,497 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:32:38,556 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:32:38,556 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:32:38,565 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:32:38,565 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:32:38,570 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:32:38,571 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:32:38,574 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:32:38,581 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:32:38,581 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:32:38,586 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:32:38,587 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:32:38,591 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:32:38,591 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:32:38,592 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:32:38,598 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:32:38,598 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:32:38,604 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:32:38,605 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:32:38,608 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:32:38,609 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:32:38,609 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:32:38,612 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-32-38.csv
+2025-02-04 14:32:38,612 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:32:38,616 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-32-38.csv
+2025-02-04 14:32:38,616 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:32:38,618 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-32-38.csv
+2025-02-04 14:32:38,618 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:32:38,621 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-32-38.csv
+2025-02-04 14:32:38,621 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:32:38,623 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-32-38.csv
+2025-02-04 14:32:38,623 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:32:38,625 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:32:38,629 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:32:38,638 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:32:38,639 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:32:38,768 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:32:38,784 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:32:38,785 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:32:38,796 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:32:38,796 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:32:38,807 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:32:38,808 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:32:38,812 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:32:38,819 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:32:38,820 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:32:38,828 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:32:38,829 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:32:38,832 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:32:38,834 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:32:38,834 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:32:38,856 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:32:38,856 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:32:38,864 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:32:38,864 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:32:38,868 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:32:38,868 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:32:38,868 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:32:38,878 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-32-38.csv
+2025-02-04 14:32:38,878 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:32:38,884 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-32-38.csv
+2025-02-04 14:32:38,884 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:32:38,886 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-32-38.csv
+2025-02-04 14:32:38,886 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:32:38,887 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-32-38.csv
+2025-02-04 14:32:38,887 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:32:38,890 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-32-38.csv
+2025-02-04 14:32:38,890 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:32:38,892 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:32:38,896 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:32:39,584 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:33:00,634 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:33:00,652 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:00,653 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:00,658 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:00,659 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:00,661 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:00,735 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:33:00,736 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:33:00,745 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:00,745 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:00,755 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:00,756 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:00,762 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:00,773 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:00,774 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:00,780 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:00,780 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:00,783 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:00,784 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:33:00,784 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:33:00,791 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:00,791 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:00,797 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:00,797 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:00,800 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:00,800 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:00,800 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:33:00,804 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-33-00.csv
+2025-02-04 14:33:00,804 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:33:00,810 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-33-00.csv
+2025-02-04 14:33:00,810 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:33:00,812 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-33-00.csv
+2025-02-04 14:33:00,812 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:33:00,814 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-33-00.csv
+2025-02-04 14:33:00,814 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:33:00,816 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-33-00.csv
+2025-02-04 14:33:00,817 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:33:00,819 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:33:00,824 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:33:00,832 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:33:00,833 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:33:00,957 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:33:00,973 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:33:00,974 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:33:00,981 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:00,982 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:00,989 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:00,989 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:00,992 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:00,998 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:00,998 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:01,004 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:01,004 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:01,007 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:01,009 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:33:01,009 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:33:01,013 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:01,013 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:01,019 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:01,019 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:01,023 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:01,023 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:01,023 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:33:01,027 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-33-01.csv
+2025-02-04 14:33:01,027 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:33:01,031 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-33-01.csv
+2025-02-04 14:33:01,031 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:33:01,033 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-33-01.csv
+2025-02-04 14:33:01,033 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:33:01,035 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-33-01.csv
+2025-02-04 14:33:01,035 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:33:01,038 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-33-01.csv
+2025-02-04 14:33:01,038 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:33:01,040 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:33:01,045 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:33:01,840 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:33:26,494 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:33:26,509 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:26,510 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:26,515 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:26,516 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:26,518 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:26,581 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:33:26,581 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:33:26,591 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:26,591 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:26,598 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:26,599 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:26,604 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:26,612 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:26,613 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:26,618 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:26,618 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:26,621 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:26,623 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:33:26,623 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:33:26,629 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:26,629 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:26,635 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:26,635 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:26,640 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:26,641 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:26,641 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:33:26,645 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-33-26.csv
+2025-02-04 14:33:26,645 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:33:26,648 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-33-26.csv
+2025-02-04 14:33:26,649 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:33:26,651 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-33-26.csv
+2025-02-04 14:33:26,651 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:33:26,653 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-33-26.csv
+2025-02-04 14:33:26,653 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:33:26,657 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-33-26.csv
+2025-02-04 14:33:26,658 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:33:26,660 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:33:26,664 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:33:26,673 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:33:26,675 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:33:26,838 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:33:26,856 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:33:26,856 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:33:36,178 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:33:36,190 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:36,190 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:36,195 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:36,196 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:36,199 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:36,257 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:33:36,258 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:33:36,263 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:36,264 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:36,269 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:36,269 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:36,272 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:36,277 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:36,277 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:36,283 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:36,283 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:36,286 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:36,287 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:33:36,287 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:33:36,292 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:36,293 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:36,298 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:36,299 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:36,301 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:36,301 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:36,301 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:33:36,306 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-33-36.csv
+2025-02-04 14:33:36,306 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:33:36,309 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-33-36.csv
+2025-02-04 14:33:36,309 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:33:36,311 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-33-36.csv
+2025-02-04 14:33:36,311 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:33:36,313 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-33-36.csv
+2025-02-04 14:33:36,313 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:33:36,315 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-33-36.csv
+2025-02-04 14:33:36,315 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:33:36,317 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:33:36,322 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:33:36,331 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:33:36,332 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:33:36,456 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:33:36,471 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:33:36,472 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:33:36,480 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:36,481 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:36,488 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:36,489 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:36,493 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:36,499 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:36,500 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:36,506 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:36,507 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:36,509 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:36,511 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:33:36,511 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:33:36,515 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:33:36,515 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:33:36,521 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:33:36,521 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:33:36,525 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:36,525 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:33:36,525 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:33:36,529 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-33-36.csv
+2025-02-04 14:33:36,529 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:33:36,532 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-33-36.csv
+2025-02-04 14:33:36,532 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:33:36,534 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-33-36.csv
+2025-02-04 14:33:36,534 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:33:36,537 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-33-36.csv
+2025-02-04 14:33:36,537 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:33:36,539 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-33-36.csv
+2025-02-04 14:33:36,539 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:33:36,542 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:33:36,547 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:33:37,271 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:38:05,537 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:38:05,553 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:05,554 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:05,559 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:05,560 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:05,562 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:05,619 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:38:05,620 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:38:05,627 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:05,627 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:05,633 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:05,633 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:05,636 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:05,642 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:05,643 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:05,648 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:05,649 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:05,651 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:05,652 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:38:05,652 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:38:05,657 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:05,658 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:05,663 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:05,663 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:05,666 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:05,666 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:05,666 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:38:05,670 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-38-05.csv
+2025-02-04 14:38:05,670 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:38:05,673 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-38-05.csv
+2025-02-04 14:38:05,673 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:38:05,676 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-38-05.csv
+2025-02-04 14:38:05,676 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:38:05,678 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-38-05.csv
+2025-02-04 14:38:05,678 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:38:05,679 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-38-05.csv
+2025-02-04 14:38:05,679 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:38:05,681 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:38:05,686 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:38:05,694 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:38:05,695 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:38:05,812 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:38:05,826 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:38:05,826 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:38:05,833 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:05,833 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:05,839 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:05,840 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:05,843 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:05,847 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:05,849 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:05,856 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:05,856 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:05,859 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:05,860 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:38:05,860 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:38:05,864 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:05,865 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:05,870 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:05,870 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:05,873 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:05,873 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:05,873 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:38:05,876 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-38-05.csv
+2025-02-04 14:38:05,877 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:38:05,880 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-38-05.csv
+2025-02-04 14:38:05,880 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:38:05,880 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-38-05.csv
+2025-02-04 14:38:05,880 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:38:05,882 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-38-05.csv
+2025-02-04 14:38:05,882 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:38:05,884 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-38-05.csv
+2025-02-04 14:38:05,884 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:38:05,887 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:38:05,891 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:38:06,536 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:38:24,598 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:38:24,613 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:24,614 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:24,619 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:24,619 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:24,622 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:24,680 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:38:24,680 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:38:24,686 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:24,686 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:24,691 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:24,692 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:24,695 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:24,699 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:24,700 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:24,706 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:24,706 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:24,710 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:24,710 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:38:24,710 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:38:24,714 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:24,715 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:24,720 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:24,720 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:24,723 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:24,724 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:24,724 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:38:24,727 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-38-24.csv
+2025-02-04 14:38:24,727 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:38:24,730 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-38-24.csv
+2025-02-04 14:38:24,730 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:38:24,732 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-38-24.csv
+2025-02-04 14:38:24,732 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:38:24,735 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-38-24.csv
+2025-02-04 14:38:24,735 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:38:24,737 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-38-24.csv
+2025-02-04 14:38:24,737 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:38:24,739 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:38:24,743 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:38:24,752 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:38:24,753 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:38:24,869 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:38:24,884 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:38:24,884 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:38:24,891 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:24,892 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:24,898 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:24,899 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:24,902 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:24,907 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:24,908 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:24,913 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:24,913 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:24,916 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:24,916 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:38:24,916 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:38:24,922 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:38:24,922 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:38:24,927 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:38:24,927 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:38:24,930 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:24,930 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:38:24,930 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:38:24,933 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-38-24.csv
+2025-02-04 14:38:24,933 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:38:24,937 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-38-24.csv
+2025-02-04 14:38:24,937 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:38:24,939 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-38-24.csv
+2025-02-04 14:38:24,939 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:38:24,941 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-38-24.csv
+2025-02-04 14:38:24,941 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:38:24,943 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-38-24.csv
+2025-02-04 14:38:24,943 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:38:24,945 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:38:24,949 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:38:25,728 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:46:39,789 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:46:39,808 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:46:39,808 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:46:39,814 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:46:39,815 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:46:39,818 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:46:39,891 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:46:39,892 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:46:39,905 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:46:39,906 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:46:39,918 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:46:39,919 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:46:39,923 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:46:39,930 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:46:39,930 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:46:39,936 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:46:39,937 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:46:39,939 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:46:39,940 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:46:39,940 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:46:39,945 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:46:39,946 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:46:39,955 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:46:39,956 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:46:39,959 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:46:39,960 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:46:39,960 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:46:39,968 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-46-39.csv
+2025-02-04 14:46:39,968 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:46:39,973 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-46-39.csv
+2025-02-04 14:46:39,973 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:46:39,977 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-46-39.csv
+2025-02-04 14:46:39,978 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:46:39,983 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-46-39.csv
+2025-02-04 14:46:39,983 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:46:39,988 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-46-39.csv
+2025-02-04 14:46:39,988 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:46:39,991 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:46:39,995 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:46:40,007 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:46:40,009 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-04 14:46:40,159 | INFO | Relatorio Final | Relatório gerado com sucesso.
+2025-02-04 14:46:40,177 | INFO | DatabaseManager | Usando banco de dados: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\database\loja.db
+2025-02-04 14:46:40,177 | INFO | Relatorio Final | Iniciando geração do relatório consolidado.
+2025-02-04 14:46:40,189 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:46:40,190 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:46:40,198 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:46:40,199 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:46:40,203 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:46:40,208 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:46:40,209 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:46:40,216 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:46:40,216 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:46:40,219 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:46:40,220 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja'], dtype='object')
+2025-02-04 14:46:40,220 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-04 14:46:40,225 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-04 14:46:40,226 | INFO | merge_tabelas | Colunas disponíveis:
+Vendas: Index(['ID_Venda', 'ID_Cliente', 'ID_Produto', 'ID_Loja', 'ID_Atendente',
+       'Quantidade', 'Data'],
+      dtype='object')
+Produtos: Index(['ID_Produto', 'Nome_Produto', 'Categoria', 'Preço'], dtype='object')
+Clientes: Index(['ID_Cliente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+Lojas: Index(['ID_Loja', 'Nome_Loja', 'Endereço', 'Telefone'], dtype='object')
+Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype='object')
+2025-02-04 14:46:40,233 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-04 14:46:40,233 | INFO | merge_tabelas | Coluna 'Receita Total' criada.
+2025-02-04 14:46:40,237 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:46:40,237 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total'],
+      dtype='object')
+2025-02-04 14:46:40,237 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-04 14:46:40,242 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\media_ticket_loja_2025-02-04_14-46-40.csv
+2025-02-04 14:46:40,242 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-04 14:46:40,246 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-04_14-46-40.csv
+2025-02-04 14:46:40,246 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-04 14:46:40,250 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-04_14-46-40.csv
+2025-02-04 14:46:40,250 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-04 14:46:40,252 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\total_faturado_loja_2025-02-04_14-46-40.csv
+2025-02-04 14:46:40,252 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-04 14:46:40,255 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: C:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-04_14-46-40.csv
+2025-02-04 14:46:40,255 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-04 14:46:40,258 | INFO | AnaliseVendas | Ano mais recente detectado: 2024
+2025-02-04 14:46:40,262 | INFO | AnaliseVendas | Vendas calculadas para o ano 2024:
+       Data  Receita Total
+0   2024-01        1978.23
+1   2024-02           0.00
+2   2024-03        5379.48
+3   2024-04           0.00
+4   2024-05           0.00
+5   2024-06        3298.24
+6   2024-07        2687.20
+7   2024-08        1074.88
+8   2024-09        8069.22
+9   2024-10         786.24
+10  2024-11           0.00
+11  2024-12        1808.36
+2025-02-04 14:46:41,036 | INFO | Relatorio Final | Relatório gerado com sucesso.
