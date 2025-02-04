@@ -1,7 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
-from utils.funcoes import guardar_analise_csv, merge_tabelas
+from utils.funcoes import guardar_analise_csv
+from utils.merge_tabelas import merge_tabelas
 from utils.logger_utils import get_logger
 from datetime import datetime
 

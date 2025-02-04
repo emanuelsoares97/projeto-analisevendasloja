@@ -14,7 +14,8 @@ def main():
         "lojas": "./data/Lojas.csv",
         "produtos": "./data/Produtos.csv",
         "clientes": "./data/Clientes.csv",
-        "vendas": "./data/Vendas.csv"
+        "vendas": "./data/Vendas.csv",
+        "vendas": "./data/Atendentes.csv"
     }
 
     # Carregar os dados do CSV para o SQLite

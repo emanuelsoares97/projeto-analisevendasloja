@@ -44,7 +44,7 @@ def main():
         ticket_medio_loja_df = analise_lojas.media_ticket_loja()
         gerar_grafico(ticket_medio_loja_df, "Média de Venda por Loja", "Loja", "Ticket Médio", "ticket_medio_lojas")
 
-         atendentes_por_loja=analise_lojas.atendentes_por_loja()
+        atendentes_por_loja=analise_lojas.atendentes_por_loja()
         gerar_grafico(atendentes_por_loja, "Número de Atendentes por Loja", "Loja", "Número de Atendentes", "atendentes_por_loja")
 
         logger.info("Gerar análises de atendentes...")

@@ -13,7 +13,7 @@ def limpar_base_dados():
     else:
         logger.info("Nenhuma base de dados encontrada.")
 
-def limpar_csvs():
+def limpar_csv():
     """Apaga todos os ficheiros CSV antigos."""
     caminho_csvs = "./data/*.csv"
     try:
@@ -29,7 +29,7 @@ def limpar_tudo():
     confirmacao = input("Tens a certeza que queres apagar tudo? (s/n): ")
     if confirmacao.lower() == "s":
         limpar_base_dados()
-        limpar_csvs()
+        limpar_csv()
         logger.info("Todas as tabelas e a base de dados foram eliminadas com sucesso!")
     else:
         logger.info("Operação cancelada pelo utilizador.")

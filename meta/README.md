@@ -1,4 +1,5 @@
 # Projeto Análise de Loja
+Com Base de dados estatica (Ainda não aprendi API's)
 
 ## Descrição
 
@@ -46,6 +47,7 @@ meu-projeto-de-vendas/
 │   ├── analise_receita.ipynb  # Notebook com a análise em Pandas
 │   ├── analise_clientes.ipynb  # Notebook com a análise em Pandas
 │   ├── analise_lojas.ipynb  # Notebook com a análise em Pandas
+├── utils/ #tem todas as funções dentro (registo de erros, graficos, logger, merge, limpar dados, setuo db)
 ├── meta/ #ficheiro github
 ├── main.py  # Script principal
 ├── setup.py  # Arquivo para tornar o projeto instalável
