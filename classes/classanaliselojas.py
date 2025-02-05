@@ -55,3 +55,4 @@ class AnaliseLojas:
             self.logger.error(f"Erro ao calcular número de atendentes por loja: {e}")
             return None
 
+#adicionar metodo onde gera uma tabela com o nome dos atendentes e a loja onde trabalham
