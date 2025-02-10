@@ -14,7 +14,7 @@ class AnaliseAtendentes:
             self.df_merged = merge_tabelas(db_manager)
 
             # Garantir que as colunas necessárias estão no DataFrame
-            required_columns = ["Atendente", "ID Atendente", "Quantidade", "Receita Total", "Loja", "Data"]
+            required_columns = ["Atendente", "ID Atendente", "Quantidade", "Receita Total", "Loja", "Ano_Mes"]
             missing_cols = [col for col in required_columns if col not in self.df_merged.columns]
 
             if missing_cols:
@@ -90,28 +90,19 @@ class AnaliseAtendentes:
         :return: DataFrame com evolução das vendas ao longo do tempo.
         """
         try:
-            # Garantir que a coluna "Data" está no formato datetime
-            self.df_merged["Data"] = pd.to_datetime(self.df_merged["Data"], errors='coerce')
-
-            # Remover valores nulos após conversão
-            self.df_merged = self.df_merged.dropna(subset=["Data"])
-
-            # Obter o ano mais recente disponível nos dados
-            ano_mais_recente = self.df_merged["Data"].dt.year.max()
-
-            # Filtrar apenas para o ano mais recente
-            df_filtrado = self.df_merged[self.df_merged["Data"].dt.year == ano_mais_recente]
-
+            
             # Agrupar por Data e Atendente para calcular o faturamento
-            df_vendas_tempo = df_filtrado.groupby(["Data", "Atendente"])["Receita Total"].sum().reset_index()
-
-            #formato ano e mes
-            df_vendas_tempo["Data"] = pd.to_datetime(df_vendas_tempo["Data"]).dt.strftime("%Y-%m")
+            df_vendas_tempo = self.df_merged.groupby(["Atendente", "Ano_Mes"])["Receita Total"].sum().reset_index()
 
             # Ordenar os meses em ordem crescente
-            df_vendas_tempo = df_vendas_tempo.sort_values("Data", ascending=True)
+            df_vendas_tempo = df_vendas_tempo.sort_values("Ano_Mes", ascending=True)
+
+            #formato ano e mes
+            df_vendas_tempo["Ano_Mes"] = pd.to_datetime(df_vendas_tempo["Ano_Mes"]).dt.strftime("%Y-%m")
 
             self.logger.info("Evolução de vendas por atendente calculada com sucesso.")
+            
+            
             return df_vendas_tempo
 
         except Exception as e:
