@@ -1,5 +1,5 @@
 Projeto Análise de Loja
-Com Base de dados estatica (Ainda não aprendi API's)
+Com Base de dados estatica (Projeto sem API, porque na altura ainda não tinha aprendido, 10/02/2025)
 
 Descrição
 O Projeto Análise de Vendas é um sistema de análise de dados que extrai informações de uma base de dados SQL e utiliza a biblioteca Pandas para tratamento e visualização dos dados. O objetivo principal é gerar insights a partir das vendas, identificando padrões como:
