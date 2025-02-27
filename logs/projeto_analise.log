@@ -13573,3 +13573,99 @@ Atendentes: Index(['ID_Atendente', 'Nome', 'Idade', 'Email', 'Telefone'], dtype=
 2025-02-07 10:42:10,154 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Top 10 Atendentes - Ticket Médio
 2025-02-07 10:42:10,566 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\Tuta\Documents\GitHub\ProjetoAnaliseLojas\utils\..\graficos\top10_ticket_medio_2025-02-07_10-42-10.png
 2025-02-07 10:42:10,572 | INFO | Main | Todas as análises foram geradas com sucesso!
+2025-02-27 15:53:33,361 | INFO | DatabaseManager | Usando banco de dados: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\database\loja.db
+2025-02-27 15:53:33,412 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-27 15:53:33,447 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-27 15:53:33,472 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total',
+       'Ano_Mes'],
+      dtype='object')
+2025-02-27 15:53:33,473 | INFO | AnaliseVendas | Colunas após o merge: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total',
+       'Ano_Mes'],
+      dtype='object')
+2025-02-27 15:53:33,473 | INFO | AnaliseVendas | Base de dados carregada e normalizada para análises.
+2025-02-27 15:53:33,485 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-27 15:53:33,497 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-27 15:53:33,512 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total',
+       'Ano_Mes'],
+      dtype='object')
+2025-02-27 15:53:33,525 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-27 15:53:33,541 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-27 15:53:33,554 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total',
+       'Ano_Mes'],
+      dtype='object')
+2025-02-27 15:53:33,567 | INFO | merge_tabelas | Tabelas carregadas com sucesso.
+2025-02-27 15:53:33,582 | INFO | merge_tabelas | Merge das tabelas realizado com sucesso.
+2025-02-27 15:53:33,593 | INFO | merge_tabelas | Colunas renomeadas: Index(['ID Venda', 'ID Cliente', 'ID Produto', 'ID Loja', 'ID Atendente',
+       'Quantidade', 'Data', 'Produto', 'Categoria', 'Preco', 'Cliente',
+       'Idade_x', 'Email_x', 'Telefone_x', 'Loja', 'Endereço', 'Telefone_y',
+       'Atendente', 'Idade_y', 'Email_y', 'Telefone', 'Receita Total',
+       'Ano_Mes'],
+      dtype='object')
+2025-02-27 15:53:33,596 | INFO | AnaliseAtendentes | Colunas após o merge: Index(['Atendente', 'ID Atendente', 'Quantidade', 'Receita Total', 'Loja',
+       'Ano_Mes'],
+      dtype='object')
+2025-02-27 15:53:33,596 | INFO | AnaliseAtendentes | Base de dados carregada e normalizada para análises.
+2025-02-27 15:53:33,596 | INFO | Main | Gerar análises de vendas...
+2025-02-27 15:53:33,686 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\top10_receita_por_produto_2025-02-27_15-53-33.csv
+2025-02-27 15:53:33,686 | INFO | AnaliseVendas | Ficheiro guardado: top10_receita_por_produto
+2025-02-27 15:53:33,687 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Top 10 Produtos com Maior Receita
+2025-02-27 15:53:35,491 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\top10_receita_2025-02-27_15-53-33.png
+2025-02-27 15:53:35,626 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\top10_produtos_mais_vendidos_2025-02-27_15-53-35.csv
+2025-02-27 15:53:35,626 | INFO | AnaliseVendas | Ficheiro guardado: top10_produtos_mais_vendidos
+2025-02-27 15:53:35,626 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Top 10 Produtos Mais Vendidos
+2025-02-27 15:53:37,048 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\top10_vendas_2025-02-27_15-53-35.png
+2025-02-27 15:53:37,097 | INFO | Main | Gerar análises de clientes...
+2025-02-27 15:53:37,105 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\top10_total_gasto_cliente_2025-02-27_15-53-37.csv
+2025-02-27 15:53:37,106 | INFO | AnaliseClientes | Tabela guardada: total gasto por cliente.
+2025-02-27 15:53:37,106 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Top 10 Clientes que Mais Gastaram
+2025-02-27 15:53:38,529 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\top10_gasto_clientes_2025-02-27_15-53-37.png
+2025-02-27 15:53:38,585 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\top10_total_compras_cliente_2025-02-27_15-53-38.csv
+2025-02-27 15:53:38,586 | INFO | AnaliseClientes | Tabela guardada: total compras por cliente.
+2025-02-27 15:53:38,586 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Top 10 Clientes que Mais Compraram
+2025-02-27 15:53:39,917 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\top10_qtd_clientes_2025-02-27_15-53-38.png
+2025-02-27 15:53:39,988 | INFO | Main | Gerar análises de lojas...
+2025-02-27 15:53:40,033 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\total_faturado_loja_2025-02-27_15-53-40.csv
+2025-02-27 15:53:40,033 | INFO | AnaliseLojas | Tabela guardada: total faturado por loja.
+2025-02-27 15:53:40,033 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Total Faturado por Loja
+2025-02-27 15:53:41,628 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\faturamento_lojas_2025-02-27_15-53-40.png
+2025-02-27 15:53:41,710 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\total_vendas_por_loja_2025-02-27_15-53-41.csv
+2025-02-27 15:53:41,710 | INFO | AnaliseLojas | Tabela guardada: total de vendas por loja.
+2025-02-27 15:53:41,710 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Total de Produtos Vendidos por Loja
+2025-02-27 15:53:43,651 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\vendas_lojas_2025-02-27_15-53-41.png
+2025-02-27 15:53:43,782 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\media_ticket_loja_2025-02-27_15-53-43.csv
+2025-02-27 15:53:43,782 | INFO | AnaliseLojas | Tabela guardada: ticket médio por loja.
+2025-02-27 15:53:43,782 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Média de Venda por Loja
+2025-02-27 15:53:45,350 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\ticket_medio_lojas_2025-02-27_15-53-43.png
+2025-02-27 15:53:45,475 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\atendentes_por_loja_2025-02-27_15-53-45.csv
+2025-02-27 15:53:45,475 | INFO | AnaliseLojas | Ficheiro guardado: atendentes_por_loja
+2025-02-27 15:53:45,476 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Número de Atendentes por Loja
+2025-02-27 15:53:47,221 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\atendentes_por_loja_2025-02-27_15-53-45.png
+2025-02-27 15:53:47,289 | INFO | Main | Gerar análises de atendentes...
+2025-02-27 15:53:47,297 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\top10_atendentes_vendas_2025-02-27_15-53-47.csv
+2025-02-27 15:53:47,297 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_vendas
+2025-02-27 15:53:47,298 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Top 10 Atendentes - Quantidade Vendida
+2025-02-27 15:53:49,090 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\top10_atendentes_vendas_2025-02-27_15-53-47.png
+2025-02-27 15:53:49,190 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\top10_atendentes_receita_2025-02-27_15-53-49.csv
+2025-02-27 15:53:49,190 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_atendentes_receita
+2025-02-27 15:53:49,191 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Top 10 Atendentes - Receita Total
+2025-02-27 15:53:50,588 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\top10_atendentes_receita_2025-02-27_15-53-49.png
+2025-02-27 15:53:50,745 | INFO | AnaliseAtendentes | Evolução de vendas por atendente calculada com sucesso.
+2025-02-27 15:53:50,746 | INFO | GeradorGraficos | Iniciando a geração do gráfico de linha: Evolução das Vendas
+2025-02-27 15:53:52,843 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\grafico_vendas_2025-02-27_15-53-50.png
+2025-02-27 15:53:52,937 | INFO | guardar_analise_csv | Ficheiro guardado com sucesso: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\data/analisescsv\top10_ticket_medio_2025-02-27_15-53-52.csv
+2025-02-27 15:53:52,937 | INFO | AnaliseAtendentes | Ficheiro guardado: top10_ticket_medio
+2025-02-27 15:53:52,939 | INFO | GeradorGraficos | Iniciando a geração do gráfico de barras: Top 10 Atendentes - Ticket Médio
+2025-02-27 15:53:55,042 | INFO | GeradorGraficos | Gráfico salvo em: c:\Users\tutas\Documents\Projetos GitHUB\ProjetoAnaliseVendas\utils\..\graficos\top10_ticket_medio_2025-02-27_15-53-52.png
+2025-02-27 15:53:55,109 | INFO | Main | Todas as análises foram geradas com sucesso!
