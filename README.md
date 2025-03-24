@@ -1,22 +1,93 @@
-Projeto Análise de Loja
-Com Base de dados estatica (Projeto sem API, porque na altura ainda não tinha aprendido, 10/02/2025)
+# 📊 Sales Data Analysis with Python and Pandas
 
-Descrição
-O Projeto Análise de Vendas é um sistema de análise de dados que extrai informações de uma base de dados SQL e utiliza a biblioteca Pandas para tratamento e visualização dos dados. O objetivo principal é gerar insights a partir das vendas, identificando padrões como:
+This project aims to analyze a retail store's sales data using Python. It extracts key insights from raw CSV data using `pandas` and creates clear visualizations with `matplotlib`.
 
-Receita total por produto, loja e atendente
-Produtos mais vendidos
-Clientes com maior volume de compras
-Atendentes com maior faturamento
+The goal is to simulate a real-world business scenario where sales data is provided monthly and needs to be processed for insights such as:
+- Top-selling products
+- Monthly revenue
+- Sales performance by seller
+- Revenue comparison by category
 
-Além disso, o projeto gera gráficos automatizados e relatórios CSV, tornando a análise mais visual e acessível.
+---
 
-Tecnologias Utilizadas
-Python 3.10+
-Pandas – Manipulação e análise de dados
-Matplotlib – Geração de gráficos
-SQLite – Base de dados
-Logging – Monitoramento do processo
-Jupyter Notebooks – Testes e exploração inicial
-📂 Estrutura do Projeto
-meu-projeto-de-vendas/ ├── README.md # Explicação do projeto ├── classes/ │ ├── DatabaseManager │ ├── ClientesManager │ ├── VendasManager │ ├── LojasManager ├── database/ │ ├── loja.db # Arquivo SQLite (pode ser incluído ou gerado pelo código) │ └── scripts.sql # Opcional: scripts para criar tabelas ainda nao sei se vou fazer ├── graficos/ #graficos gerados automaticamente pelas analises feitas guardados em png ├── data/ │ ├── vendas.csv │ └── produtos.csv │ └── analisescsv/ #ficam os dados gerados em csv pelas analises feitas ├── notebooks/ │ ├── analise_vendas.ipynb # Notebook com a análise em Pandas │ ├── analise_receita.ipynb # Notebook com a análise em Pandas │ ├── analise_clientes.ipynb # Notebook com a análise em Pandas │ ├── analise_lojas.ipynb # Notebook com a análise em Pandas ├── utils/ #tem todas as funções dentro (registo de erros, graficos, logger, merge, limpar dados, setuo db) ├── meta/ #ficheiro github ├── main.py # Script principal ├── setup.py # Arquivo para tornar o projeto instalável └── requirements.txt # Bibliotecas Python usadas no projeto
+## 🧰 Technologies Used
+
+- **Python** — Main programming language
+- **Pandas** — Data analysis and manipulation
+- **Matplotlib** — Data visualization (charts and graphs)
+- **CSV Files** — As the raw data source
+
+---
+
+## 📁 Folder Structure
+
+```
+projeto-analisevendasloja/
+├── classes/                    <- Business logic and reusable classes
+├── data/                       <- Raw data files (.csv)
+├── database/                   <- Optional SQLite or DB-related files
+├── graficos/                   <- Output folder for generated charts
+├── logs/                       <- Application log files
+├── meta/                       <- Metadata for project packaging
+├── notebooks/                 <- Jupyter Notebooks (optional exploratory analysis)
+├── projetoanalise.egg-info/   <- Distribution metadata (auto-generated)
+├── utils/                      <- Utility/helper functions
+├── venv/                       <- Virtual environment folder
+├── README.md                   <- Project description (you're here!)
+├── main.py                     <- Main execution file
+├── requirements.txt            <- Python dependencies
+└── setup.py                    <- Project packaging file (optional)
+```
+
+---
+
+## 🚀 What This Project Does
+
+- Loads sales data from a CSV file
+- Cleans and processes the data
+- Groups data by seller, product, and category
+- Calculates revenue and quantity sold
+- Identifies best sellers and top-performing items
+- Generates visual charts: bar plots, pie charts, etc.
+
+---
+
+## 🖼️ Sample Output (Graphs)
+
+*(Insert example graphs here as screenshots)*
+
+---
+
+## 📦 How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/emanuelsoares97/projeto-analisevendasloja.git
+   cd projeto-analisevendasloja
+   ```
+2. Create and activate a virtual environment (recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
+   ```
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the analysis:
+   ```bash
+   python main.py
+   ```
+
+---
+
+## 💡 What I Learned
+
+- Manipulating datasets using `pandas`
+- Creating visualizations with `matplotlib`
+- Extracting insights from raw data
+- Writing clean and modular code
+
+---
+
+> Built with 💻 and ☕ by Emanuel Soares — aspiring backend developer and data enthusiast.
