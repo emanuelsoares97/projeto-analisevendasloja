@@ -1,4 +1,4 @@
-# 📊 Sales Data Analysis with Python and Pandas
+# Sales Data Analysis with Python and Pandas
 
 This project aims to analyze a retail store's sales data using Python. It extracts key insights from raw CSV data using `pandas` and creates clear visualizations with `matplotlib`.
 
@@ -10,7 +10,7 @@ The goal is to simulate a real-world business scenario where sales data is provi
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - **Python** — Main programming language
 - **Pandas** — Data analysis and manipulation
@@ -19,7 +19,7 @@ The goal is to simulate a real-world business scenario where sales data is provi
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 projeto-analisevendasloja/
@@ -41,7 +41,7 @@ projeto-analisevendasloja/
 
 ---
 
-## 🚀 What This Project Does
+## What This Project Does
 
 - Loads sales data from a CSV file
 - Cleans and processes the data
@@ -52,13 +52,13 @@ projeto-analisevendasloja/
 
 ---
 
-## 🖼️ Sample Output (Graphs)
+##  Sample Output (Graphs)
 
 *(Insert example graphs here as screenshots)*
 
 ---
 
-## 📦 How to Run
+## How to Run
 
 1. Clone this repository:
    ```bash
@@ -81,7 +81,7 @@ projeto-analisevendasloja/
 
 ---
 
-## 💡 What I Learned
+## What I Learned
 
 - Manipulating datasets using `pandas`
 - Creating visualizations with `matplotlib`
