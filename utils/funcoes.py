@@ -42,6 +42,7 @@ def criar_graficos_matplotlib_pyplot(df, titulo, xlabel, ylabel, tipo="bar"):
 
 
 loggercv= get_logger("guardar_analise_csv")
+
 def guardar_analise_csv(df, nome_ficheiro):
     """
     Guarda um DataFrame ou Series como CSV dentro da pasta `data/analisescsv`, garantindo que os ficheiros não sejam sobrescritos.
